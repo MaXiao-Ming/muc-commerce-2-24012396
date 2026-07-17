@@ -1,0 +1,15 @@
+﻿步骤,处理规则,处理前记录数,处理后记录数,影响记录数
+初始数据,无,5630,5630,0
+删除重复行,无完全重复行,5630,5630,0
+填补缺失值 - Tenure,用中位数 9.00 填补,5630,5630,264
+填补缺失值 - WarehouseToHome,用中位数 14.00 填补,5630,5630,251
+填补缺失值 - HourSpendOnApp,用中位数 3.00 填补,5630,5630,255
+填补缺失值 - OrderAmountHikeFromlastYear,用中位数 15.00 填补,5630,5630,265
+填补缺失值 - CouponUsed,用中位数 1.00 填补,5630,5630,256
+填补缺失值 - OrderCount,用中位数 2.00 填补,5630,5630,258
+填补缺失值 - DaySinceLastOrder,用中位数 3.00 填补,5630,5630,307
+类别标准化 - PreferredLoginDevice,映射 {'Phone': 'Mobile Phone'},5630,5630,1231
+类别标准化 - PreferredPaymentMode,"映射 {'COD': 'Cash on Delivery', 'CC': 'Credit Card'}",5630,5630,638
+类别标准化 - PreferedOrderCat,映射 {'Mobile': 'Mobile Phone'},5630,5630,809
+类型转换 - Churn,转为整数类型,5630,5630,5630
+类型转换 - Complain,转为整数类型,5630,5630,5630
